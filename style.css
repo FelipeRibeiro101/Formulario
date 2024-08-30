@@ -1,0 +1,4 @@
+form {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,45,119,1) 0%, rgba(136,30,47,1) 50%, rgba(255,51,0,1) 100%);
+}

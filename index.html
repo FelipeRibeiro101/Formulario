@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Cadastro de pessoas:</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome">
+            </div>
+
+            <div>
+                <label for="Sobrenome">Sobrenome:</label>
+                <input type="text" name="Sobrenome">
+            </div>
+
+            <div>
+                <label for="emaíl">E-mail:</label>
+                <input type="email" name="E-mail">
+            </div>
+
+            <div>
+                <label for="Senha">Senha:</label>
+                <input type="password" name="Senha">
+            </div>
+
+            <div>
+                <label for="Data_nascimento">Data de nascimento:</label>
+                <input type="date" name="Data_nascimento">
+            </div>
+
+            <div>
+                <label>Comida favorita</label>
+                <ul>
+                    <li>
+                        <label for="Hamburguer">Hamburguer</label>
+                        <input type="checkbox" name="Hamburguer" value="Hamburguer">
+                    </li>
+                    <li>
+                        <label for="Pizza">Pizza</label>
+                        <input type="checkbox" name="Pizza" value="Pizza">
+                    </li>
+                    <li>
+                        <label for="Sushi">Sushi</label>
+                        <input type="checkbox" name="Sushi" value="Sushi">
+                    </li>
+                    <li>
+                        <label for="Cachorro_quente">Cachorrro quente</label>
+                        <input type="checkbox" name="Cachorro_quente" value="Cachorro_quente">
+                    </li>
+                    <li>
+                        <label for="Xis">Xis</label>
+                        <input type="checkbox" name="Xis" value="Xis">
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <label for="caracteristicas">Descreva suas caracteristicas:</label>
+                <textarea name="caracteristicas" cols="50" rows="4"></textarea>
+            </div>
+
+            <div>
+                <label> Aceita os termos e cadastro:</label>
+            
+                <div>
+                    <input type="radio" id="sim" name="aceita_termos" value="sim"></input>
+                    <label for="sim">sim</label>
+                </div>
+                <div>
+                    <input type="radio" name="aceita_termos" id="nao" value="não">
+                    <label for="nao">Não</label>
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Cadastrar">
+            </div>
+    </form>
+</body>
+
+</html>
